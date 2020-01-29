@@ -32,9 +32,9 @@ console.log(studenti[1]['eta']);
 
 
   for (var key in studenti) {
-   console.log(studenti[key]);
+   console.log(studenti[key].nome + ' ' + studenti[key].cognome);
 
-   for (var i = 0; i < studenti[key].length; i++) {
-     console.log('ciao');
-   }
+   // for (var i = 0; i < studenti[key].length; i++) {
+   //   console.log('ciao');
+   // }
 }
