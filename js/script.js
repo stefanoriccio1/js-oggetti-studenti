@@ -31,14 +31,10 @@ var studenti = [
 console.log(studenti[1]['eta']);
 
 
-  for (var key in studenti[i]) {
-   if (key == 'nome'){
-     console.log('nome');
-   }
-   else if(key == 'cognome'){
-     console.log('cognome');
-   }
-  }
+  for (var key in studenti) {
+   console.log(studenti[key]);
 
-// - Dare la possibilità all’utente attraverso 3 prompt di
-// aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
+   for (var i = 0; i < studenti[key].length; i++) {
+     console.log('ciao');
+   }
+}
